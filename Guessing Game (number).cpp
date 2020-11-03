@@ -48,6 +48,12 @@ void narrow_down_guesses(const int& guess) {
 
 		cout << "Your guess: ";
 		cin >> user_guess;
+		while (user_guess < new_lower_range || user_guess > new_upper_range) {
+			cout << "Please guess within the correct range!" << endl;
+			cout << "Range: " << new_lower_range << " - " << new_upper_range << endl;
+			cout << "Guess again: " << endl;
+			cin >> user_guess;
+		}
 
 		if (user_guess == guess) {
 			cout << "Fantastic you guessed it in " << num_guess << " guesses! My number was " << guess << "!" << endl;
@@ -71,4 +77,4 @@ void narrow_down_guesses(const int& guess) {
 		}
 
 	}
-}
+} 
