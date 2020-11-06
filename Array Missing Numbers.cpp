@@ -1,10 +1,12 @@
 // Author: Shaun Robinson
 // Class: NYU Tandon Bridge Spring 2020
 // Assignment: HW10 Q2
-// Program:
-// Input:
-// Output:
-// Description:
+// Program: Find Missing Numbers 
+// Input: Input int by user
+// Output: Output int arr (vector) 
+// Description: User inputs numbers from an array and this program
+// finds and prints the missing numbers in the array for the range 
+// of the array
 
 #include <iostream>
 #include <vector>
